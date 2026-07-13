@@ -1,0 +1,62 @@
+# ========================================
+# Vivado Project - Generated & Cache Files
+# ========================================
+
+# Vivado project runtime files
+*.jou
+vivado*.log
+*.str
+*.backup.jou
+*.backup.log
+vivado_*
+
+# IP Cache
+*.cache/
+
+# Runs (synthesis/implementation outputs)
+*.runs/
+*.hw/
+*.sim/
+*.tmp/
+*.ip_user_files/
+.Xil/
+
+# Generated bitstream, DCP files
+*.bit
+*.dcp
+*.bin
+*.mcs
+*.prm
+
+# SDK/BSP generated files (keep only source code)
+*.sdk/**/bsp/
+*.sdk/**/hw_platform_0/
+*.sdk/**/Debug/
+*.sdk/**/Release/
+*.sdk/.metadata/
+*.sdk/RemoteSystemsTempFiles/
+
+# SDK BSP libraries (Xilinx auto-generated)
+**/libsrc/
+
+# IDE files
+*.qpf
+*.qsf
+*.qws
+*.sod
+*.cdf
+
+# Temporary files
+*.tmp
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Keep constraint and config files
+# *.xdc - kept
+# *.tcl - kept
+# *.bd  - kept
+# *.xci - kept
+# *.xpr - kept
